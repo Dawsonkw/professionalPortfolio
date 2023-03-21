@@ -1,0 +1,116 @@
+.bg-hover-portGray{
+  background-color: #6c757d; /*desired color*/
+}
+
+.tilt {
+  transition: transform 0.5s ease-in-out;
+}
+
+.tilt:hover {
+  transform: rotate3d(1, 0, 0, 20deg) rotate3d(0, 1, 0, 20deg);
+}
+
+.grid {
+  overflow-x: hidden;
+}
+
+
+
+/*Hover animation for JS Tech Card  */
+#jsCard {
+background-image: linear-gradient(to left, #F2F2F2, #f7df1e,  #f7df1e, #F2F2F2);
+background-size: 1300%;
+background-position: left;
+transition: 1500ms background-position ease-in-out;
+}
+#jsCard:hover{
+background-position: right;
+}
+
+/*Hover animation for React Tech Card  */
+#reactCard {
+background-image: linear-gradient(to left, #F2F2F2, #00d8ff,  #00d8ff, #F2F2F2);
+background-size: 1300%;
+background-position: left;
+transition: 1500ms background-position ease-in-out;
+}
+#reactCard:hover{
+background-position: right;
+}
+
+/*Hover animation for html Tech Card  */
+#htmlCard {
+background-image: linear-gradient(to left, #F2F2F2, #ff7816,  #ff7816, #F2F2F2);
+background-size: 1300%;
+background-position: left;
+transition: 1500ms background-position ease-in-out;
+}
+#htmlCard:hover{
+background-position: right;
+}
+
+/*Hover animation for tailwind Tech Card  */
+#tailwindCard {
+background-image: linear-gradient(to left, #F2F2F2, #4db6ac,  #4db6ac, #F2F2F2);
+background-size: 1300%;
+background-position: left;
+transition: 1500ms background-position ease-in-out;
+}
+#tailwindCard:hover{
+background-position: right;
+}
+
+/*Hover animation for Node Tech Card  */
+#nodeCard {
+background-image: linear-gradient(to left, #F2F2F2, #5cad47,  #5cad47, #F2F2F2);
+background-size: 1300%;
+background-position: left;
+transition: 1500ms background-position ease-in-out;
+}
+#nodeCard:hover{
+background-position: right;
+}
+
+/*Hover animation for Vite Tech Card  */
+#viteCard {
+background-image: linear-gradient(to left, #F2F2F2, #4dc0ff,  #4dc0ff, #F2F2F2);
+background-size: 1300%;
+background-position: left;
+transition: 1500ms background-position ease-in-out;
+}
+#viteCard:hover{
+background-position: right;
+}
+
+/*Hover animation for C Tech Card  */
+#cCard {
+background-image: linear-gradient(to left, #F2F2F2, #649ad2,  #649ad2, #F2F2F2);
+background-size: 1300%;
+background-position: left;
+transition: 1500ms background-position ease-in-out;
+}
+#cCard:hover{
+background-position: right;
+}
+
+/*Hover animation for python Tech Card  */
+#pythonCard {
+background-image: linear-gradient(to left, #F2F2F2, #498abc,  #498abc, #F2F2F2);
+background-size: 1300%;
+background-position: left;
+transition: 1500ms background-position ease-in-out;
+}
+#pythonCard:hover{
+background-position: right;
+}
+
+/*Hover animation for dev Tech Card  */
+#devCard {
+background-image: linear-gradient(to left, #F2F2F2, #4caf50,  #4caf50, #F2F2F2);
+background-size: 1300%;
+background-position: left;
+transition: 1500ms background-position ease-in-out;
+}
+#devCard:hover{
+background-position: right;
+}
