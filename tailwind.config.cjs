@@ -9,7 +9,12 @@ module.exports = {
       fontFamily: {
         'modak': ['Modak', 'cursive'],
         'robotoSlab': ['Roboto Slab', 'serif'],
-        'poppins' : ['Poppins', 'sans-serif']
+        'poppins' : ['Poppins', 'sans-serif'],
+        'lobster' : ['Lobster', 'cursive'],
+        'marker' : ['Permanent Marker', 'cursive'],
+        'shojumaru' : ['Zhi Mang Xing', 'cursive'],
+        'zhi' : ['Kaushan Script', 'cursive'],
+        'zilla' : ['Zilla Slab Highlight', 'cursive'],
       },
       animation: {
         blob: "blob 7s infinite",
@@ -97,7 +102,11 @@ module.exports = {
     screens: {
       'tablet': '640px', 
 
-      'mobile': '300px',
+      'mobile': '400px',
+
+      'iphone5': '300px',
+
+      '350': '350px'
     }
     
   },
