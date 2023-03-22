@@ -5,7 +5,7 @@ function App() {
 
 
   return (
-    <div className="bg-darkAqua h-screen font-poppins">
+    <div className="bg-darkAqua h-full font-poppins">
       <Home />
     </div>
   )
