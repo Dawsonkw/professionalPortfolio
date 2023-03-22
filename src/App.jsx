@@ -1,13 +1,21 @@
 import './App.css'
 import Home from './pages/Home'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function App() {
 
 
   return (
-    <div className="bg-darkAqua h-full font-poppins">
-      <Home />
-    </div>
+    <HelmetProvider>
+      <div className="bg-darkAqua h-full font-poppins">
+        <Helmet>
+          <title>Dawson Woolley Developer Portfolio</title>
+          <meta name="description" content="A professional software developer portfolio built in React with Vite" />
+          <link rel="icon" type="image/svg+xml" href='#' />
+        </Helmet>
+        <Home />
+      </div>
+    </HelmetProvider>
   )
 }
 

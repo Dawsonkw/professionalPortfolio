@@ -1,6 +1,7 @@
 import React from 'react';
 import icon from '../images/kitsuneIcon.png'
-import { AiFillInstagram, AiFillGithub, AiFillFilePdf } from 'react-icons/ai'
+import { AiFillInstagram, AiFillGithub, AiFillFilePdf } from 'react-icons/ai';
+import { Link } from 'react-scroll';
 
 
 function Header(props) {
@@ -17,16 +18,29 @@ function Header(props) {
                         </div>
                         <div className='px-4 '>
                             <ul className='space-y-3 iphone5:text-lg sm:text-xl md:text-2xl md:py-2 '>
-                                <li className='hover:text-emeraldGreenDark'><AiFillInstagram /></li>
-                                <li className='hover:text-emeraldGreenDark'><AiFillGithub /></li>
-                                <li className='hover:text-emeraldGreenDark'><AiFillFilePdf /></li>
+                                <li className='hover:text-emeraldGreenDark'>  
+                                    <a target='_blank' rel='noopener noreferrer' href="https://www.instagram.com/dawson_does_jiujitsu/">
+                                        <AiFillInstagram />
+                                    </a>                             
+                                </li>
+                                <li className='hover:text-emeraldGreenDark'>
+                                    <a target="_blank" rel='noopener noreferrer' href="https://github.com/Dawsonkw">
+                                        <AiFillGithub />
+                                    </a>
+                                </li>
+                                <li className='hover:text-emeraldGreenDark'>
+                                    <a target="_blank" rel='noopener noreferrer' href="https://pdfhost.io/v/XvwQZk9fR_dkw_dev_resume_hosted">
+                                        <AiFillFilePdf />
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div className='flex justify-around px-4 py-2 iphone5:text-sm  iphone5:px-1 sm:text-lg'>
-                        <a className='pl-2 border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' href="#">About</a>
-                        <a className='border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' href="#">Projects</a>
-                        <a className='pr-2 border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' href="#">Contact</a>
+                    <div className='flex justify-around px-2 py-2 iphone5:text-xs 350:text-sm  iphone5:px-1 sm:text-lg'>
+                        <Link to='about' smooth={true} className='pl-2 border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' >About</Link>
+                        <Link to='projects' smooth={true} className='border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' >Projects</Link>
+                        <Link to='jiujitsu' smooth={true} className='border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' >Jiu-Jitsu</Link>
+                        <Link to='contact' smooth={true} className='pr-2 border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' >Contact</Link>
                     </div>
                 </div>
             </div>
