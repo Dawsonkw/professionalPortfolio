@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 function Header(props) {
     return (
         <div>
-            <div className='bg-bone text-reallyDarkTurquoise mx-auto iphone5:w-3/4 sm:w-3/5 shadow-2xl rounded-lg rounded-tl-none rounded-tr-none'>
+            <div className='bg-bone text-reallyDarkTurquoise mx-auto iphone5:w-4/5 sm:w-3/5 shadow-2xl rounded-lg rounded-tl-none rounded-tr-none '>
                 <div>
                     <div className='flex flex-row items-center'>
                         <div>
