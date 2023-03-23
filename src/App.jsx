@@ -7,7 +7,7 @@ function App() {
 
   return (
     <HelmetProvider>
-      <div className="bg-darkAqua h-full font-poppins">
+      <div className="bg-darkAqua h-full font-poppins text-reallyDarkTurquoise " >
         <Helmet>
           <title>Dawson Woolley Developer Portfolio</title>
           <meta name="description" content="A professional software developer portfolio built in React with Vite" />

@@ -7,10 +7,11 @@ import Jiujitsu from '../components/Jiujitsu';
 import Projects from '../components/Projects';
 import Technologies from '../components/Technologies'
 
+
 function Home(props) {
     return (
         
-            <div className=' bg-inherit h-full'>
+            <div className=' bg-inherit h-full' >
                 <Header />
                 <About />
                 <Projects />
