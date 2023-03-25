@@ -16,7 +16,7 @@ function Projects(props) {
                         <div className=' bg-bone mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-3/5 rounded-xl -mt-2 iphone5:px-8 rounded-br-none rounded-bl-none ' >
                             <Carousel />
                         </div>
-                        <div className='iphone5:flex flex-col md:grid md:grid-cols-2 gap-4  bg-bone p-4 rounded-xl iphone5:rounded-tr-none iphone5:rounded-tl-none mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-3/5 '>
+                        <div className='iphone5:flex flex-col  bg-bone p-4 rounded-xl iphone5:rounded-tr-none iphone5:rounded-tl-none mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-3/5 '>
                             <div className='py-4'>
                                 <h1 className='text-center font-xl font-bold'>Chatbox.js</h1>
                                 <video controls poster='#' itemProp='contentURL'>
@@ -45,12 +45,6 @@ function Projects(props) {
                                 <h1 className='text-center font-xl font-bold'>Ai Playground</h1>
                                 <video controls poster='#' itemProp='contentURL'>
                                     <source src={video5} type='video/mp4' />
-                                </video>
-                            </div>
-                            <div className='py-4'>
-                                <h1 className='text-center font-xl font-bold'>Woolley Woodworking</h1>
-                                <video controls poster='#' itemProp='contentURL'>
-                                    <source src={video6} type='video/mp4' />
                                 </video>
                             </div>
                         </div>

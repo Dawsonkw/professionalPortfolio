@@ -1,4 +1,7 @@
-
+.relative:hover > div {
+  display: block;
+  transition: 1500ms background-position ease-in-out;
+}
 
 .bg-hover-portGray{
   background-color: #6c757d; /*desired color*/

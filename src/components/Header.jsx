@@ -1,6 +1,7 @@
 import React from 'react';
 import icon from '../images/kitsuneIcon.png'
-import { AiFillInstagram, AiFillGithub, AiFillFilePdf } from 'react-icons/ai';
+import { AiFillInstagram, AiFillGithub } from 'react-icons/ai';
+import { MdWorkHistory } from 'react-icons/md'
 import { Link } from 'react-scroll';
 
 
@@ -30,7 +31,7 @@ function Header(props) {
                                 </li>
                                 <li className='hover:text-emeraldGreenDark'>
                                     <a target="_blank" rel='noopener noreferrer' href="https://pdfhost.io/v/XvwQZk9fR_dkw_dev_resume_hosted">
-                                        <AiFillFilePdf />
+                                        <MdWorkHistory />
                                     </a>
                                 </li>
                             </ul>
