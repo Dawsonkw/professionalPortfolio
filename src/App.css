@@ -1,6 +1,7 @@
 .relative:hover > div {
   display: block;
   transition: 1500ms background-position ease-in-out;
+  background-position: left;
 }
 
 .bg-hover-portGray{
