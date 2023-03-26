@@ -5,19 +5,19 @@ import video2 from '../videos/shamazonVideo.mp4';
 import video3 from '../videos/protogenVideo.mp4';
 import video4 from '../videos/theOtterVideo.mp4';
 import video5 from '../videos/aiPlaygroundVideo.mp4';
-import video6 from '../videos/woolleyWoodworkingVideo.mp4';
+
 
 
 function Projects(props) {
     return (
-        <div id='projects'>
+        <div id='projects' className='z-40'>
                 <div className=''>
                     <div className='flex flex-col iphone5:m-4 mobile:my-4 mobile:mx-8 sm:m-2 md:m-4  '>
-                        <div className=' bg-bone mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-3/5 rounded-xl -mt-2 iphone5:px-8 rounded-br-none rounded-bl-none ' >
+                        <div className=' bg-bone mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full rounded-xl -mt-2 iphone5:px-8 rounded-br-none rounded-bl-none ' >
                             <Carousel />
                         </div>
-                        <div className='iphone5:flex flex-col  bg-bone p-4 rounded-xl iphone5:rounded-tr-none iphone5:rounded-tl-none mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-3/5 '>
-                            <div className='py-4'>
+                        <div className='iphone5:flex flex-col lg:grid grid-cols-2  bg-bone p-4 rounded-xl iphone5:rounded-tr-none iphone5:rounded-tl-none mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full gap-8 '>
+                            <div className='py-4 '>
                                 <h1 className='text-center font-xl font-bold'>Chatbox.js</h1>
                                 <video controls poster='#' itemProp='contentURL'>
                                     <source src={video1} type='video/mp4' />

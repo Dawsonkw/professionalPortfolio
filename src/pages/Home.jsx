@@ -8,10 +8,13 @@ import Projects from '../components/Projects';
 import Technologies from '../components/Technologies'
 
 
+
+
 function Home(props) {
     return (
-        
-            <div className=' bg-inherit h-full' >
+        <div >          
+            <div className='bg-darkAqua  '>
+
                 <Header />
                 <About />
                 <Projects />
@@ -19,8 +22,8 @@ function Home(props) {
                 <Technologies />
                 <Jiujitsu />
                 <Contact />
-            </div>
-        
+            </div>                
+        </div>          
     );
 }
 

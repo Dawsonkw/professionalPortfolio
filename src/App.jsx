@@ -7,13 +7,15 @@ function App() {
 
   return (
     <HelmetProvider>
-      <div className="bg-darkAqua h-full font-poppins text-reallyDarkTurquoise " >
+      <div className="bg-darkAqua font-poppins text-reallyDarkTurquoise " >
         <Helmet>
           <title>Dawson Woolley Developer Portfolio</title>
           <meta name="description" content="A professional software developer portfolio built in React with Vite" />
           <link rel="icon" type="image/svg+xml" href='#' />
         </Helmet>
-        <Home />
+        
+          <Home />
+        
       </div>
     </HelmetProvider>
   )
