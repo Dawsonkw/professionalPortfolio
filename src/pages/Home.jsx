@@ -20,7 +20,7 @@ function Home(props) {
                 <Projects />
                 <Components />
                 <Technologies />
-                <Jiujitsu />
+                {/* <Jiujitsu /> */}
                 <Contact />
             </div>                
         </div>          

@@ -6,8 +6,8 @@ function Components(props) {
     return (
         <div>
             
-            <div className='iphone5:m-4 mobile:my-4 mobile:mx-8 sm:m-2 md:m-4 shadow-lg shadow-black '>
-                <div className='iphone5:flex flex-col lg:grid grid-cols-2 xl:grid-cols-3  bg-bone p-4 rounded-xl  mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full gap-8'>
+            <div className='iphone5:m-4 mobile:my-4 mobile:mx-8 sm:m-2 md:m-4 '>
+                <div className='iphone5:flex flex-col lg:grid grid-cols-2 xl:grid-cols-3  bg-bone p-4 rounded-xl  mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full gap-8 shadow-lg shadow-black '>
                     <h2 className='text-center sm:flex-col lg:col-span-3 iphone5:text-2xl'>Components</h2>
                     <div >
                         <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl'>
