@@ -52,7 +52,7 @@ function Carousel(props) {
     return (
         <div>
                 <div className="">
-                  <h2 className="text-center p-4 iphone5:text-2xl"> Portfolio Spotlight </h2>
+                  <h2 className="text-center p-4 iphone5:text-2xl"> Portfolio Projects </h2>
                   <Slider {...settings} className=' w-full mx-auto' style={{maxWidth: '500px', }}>
                   <div className='flex justify-center items-center'>
                         <img className='iphone5:w-4/5 mx-auto' src={placeholder} alt="" />
