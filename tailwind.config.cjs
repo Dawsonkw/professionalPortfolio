@@ -98,7 +98,8 @@ module.exports = {
       'reallyDarkTurquoise' : '#112d32',
       'darkStone' : '#4f4a41',
       'lightStone' : '#6e6658',
-      'bone' : '#F3EFE6'
+      'bone' : '#F3EFE6',
+      'coral' : '#FF6B6B',
     }, 
     screens: {
       'tablet': '640px', 

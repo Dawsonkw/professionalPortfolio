@@ -12,7 +12,7 @@ function Projects(props) {
     return (
         <div id='projects'>
                 <div className=''>
-                    <div className='flex flex-col iphone5:m-4 iphone5:my-8 mobile:my-8 sm:my-8 md:my-8 mobile:mx-8 sm:m-2 md:m-4  '>
+                    <div className='flex flex-col iphone5:m-4 iphone5:my-8 mobile:my-8 sm:my-8 md:my-8 mobile:mx-8 sm:m-2 md:m-4 shadow-lg shadow-black '>
                         <div className=' bg-bone mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full rounded-xl -mt-2 iphone5:px-8 rounded-br-none rounded-bl-none ' >
                             <Carousel />
                         </div>
