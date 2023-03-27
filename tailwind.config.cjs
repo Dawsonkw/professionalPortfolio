@@ -90,7 +90,7 @@ module.exports = {
       'textGray' : '#a3a3a3',
       'emeraldGreen' : '#5cdb95',
       'imperialBlue' : '#05386b',
-      'emeraldGreenDark' : '#379683',
+      'emeraldGreenDark' : '#2B7365',
       'emeraldGreenLight' : '#8ee4af',
       'kindaTan' : '#edf5ef',
       'darkAqua' : '#88bdbc',

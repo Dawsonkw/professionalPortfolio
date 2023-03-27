@@ -8,9 +8,9 @@ function Components(props) {
             
             <div className='iphone5:m-4 mobile:my-4 mobile:mx-8 sm:m-2 md:m-4 shadow-xl '>
                 <div className='iphone5:flex flex-col lg:grid grid-cols-2 xl:grid-cols-3  bg-bone p-4 rounded-xl  mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full gap-8'>
-                    <h2 className='text-center sm:flex-col lg:col-span-3'>Components</h2>
+                    <h2 className='text-center sm:flex-col lg:col-span-3 iphone5:text-2xl'>Components</h2>
                     <div >
-                        <div className='py-4  bg-emeraldGreenDark h-full rounded-xl'>
+                        <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl'>
                             <h1 className='text-center font-xl font-bold'>User Login Portal</h1>
                             <a href="https://github.com/Dawsonkw/entryPortal" target='_blank' rel='noreferrer'  className='flex justify-center'>Github repository</a>
                             <video className='p-4' controls poster='#' itemProp='contentURL'>
@@ -27,7 +27,7 @@ function Components(props) {
                         </div>
                     </div>
                     <div>
-                        <div className='py-4  bg-emeraldGreenDark h-full rounded-xl'>
+                        <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl'>
                             <h1 className='text-center font-xl font-bold'>Contact Form</h1>
                             <a href="https://github.com/Dawsonkw/contactFormComponent" target='_blank' rel='noreferrer'  className='flex justify-center'>Github repository</a>
                             <img className='mx-auto p-4' src={placeholder} style={{width: '350px',}} alt="" />
@@ -41,7 +41,7 @@ function Components(props) {
                         </div>
                     </div>
                     <div>
-                        <div className='py-4  bg-emeraldGreenDark h-full rounded-xl'>
+                        <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl'>
                             <h1 className='text-center font-xl font-bold'>Account Creation Form</h1>
                             <a href="https://github.com/Dawsonkw/accountCreation" target='_blank' rel='noreferrer' className='flex justify-center'>Github repository</a>
                             <img className='mx-auto p-4' src={placeholder} style={{width: '350px',}} alt="" />
@@ -55,7 +55,7 @@ function Components(props) {
                         </div>
                     </div>
                     <div>
-                        <div className='py-4  bg-emeraldGreenDark h-full rounded-xl'>
+                        <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl'>
                             <h1 className='text-center font-xl font-bold'>User Authentication Form</h1>
                             <a href="https://github.com/Dawsonkw/userAuth" target='_blank' rel='noreferrer' className='flex justify-center'>Github repository</a>
                             <img className='mx-auto p-4' src={placeholder} style={{width: '350px',}} alt="" />

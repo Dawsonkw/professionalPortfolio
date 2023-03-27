@@ -13,7 +13,7 @@ import Technologies from '../components/Technologies'
 function Home(props) {
     return (
         <div >          
-            <div className='bg-darkAqua  '>
+            <div className='bg-imperialBlue  '>
 
                 <Header />
                 <About />
