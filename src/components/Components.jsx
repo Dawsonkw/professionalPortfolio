@@ -15,7 +15,7 @@ function Components(props) {
                     <div >
                         <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl shadow-md shadow-black'>
                             <h1 className='text-center text-3xl font-bold'>User Login Portal</h1>
-                            <a href="https://github.com/Dawsonkw/entryPortal" target='_blank' rel='noreferrer'  className='flex justify-center text-2xl hover:text-coral'>Github repository</a>
+                            <div className='text-center'><a href="https://github.com/Dawsonkw/entryPortal" target='_blank' rel='noreferrer'  className=' text-2xl hover:text-coral'>Github repository</a></div>
                             <video className='p-4' controls poster={pic3} itemProp='contentURL'>
                                 <source src={video1} type='video/mp4' />
                             </video>
@@ -32,7 +32,7 @@ function Components(props) {
                     <div>
                         <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl shadow-md shadow-black'>
                             <h1 className='text-center text-3xl font-bold'>Contact Form</h1>
-                            <a href="https://github.com/Dawsonkw/contactFormComponent" target='_blank' rel='noreferrer'  className='flex justify-center text-2xl hover:text-coral'>Github repository</a>
+                            <div className='text-center'><a href="https://github.com/Dawsonkw/contactFormComponent" target='_blank' rel='noreferrer'  className=' text-2xl hover:text-coral'>Github repository</a></div>
                             <img className='mx-auto p-4' src={pic2} style={{width: '350px',}} alt="" />
                             <p className='p-4  flex justify-center'>
                                 <ul>
@@ -46,7 +46,7 @@ function Components(props) {
                     <div>
                         <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl shadow-md shadow-black'>
                             <h1 className='text-center text-3xl font-bold'>Account Creation Form</h1>
-                            <a href="https://github.com/Dawsonkw/accountCreation" target='_blank' rel='noreferrer' className='flex justify-center text-2xl hover:text-coral'>Github repository</a>
+                            <div className='text-center'><a href="https://github.com/Dawsonkw/accountCreation" target='_blank' rel='noreferrer' className='text-2xl hover:text-coral'>Github repository</a></div>
                             <img className='mx-auto p-4' src={pic1} style={{width: '350px',}} alt="" />
                             <p className='p-4  flex justify-center'>
                                 <ul>
@@ -60,7 +60,7 @@ function Components(props) {
                     <div>
                         <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl shadow-md shadow-black'>
                             <h1 className='text-center text-3xl font-bold'>User Authentication Form</h1>
-                            <a href="https://github.com/Dawsonkw/userAuth" target='_blank' rel='noreferrer' className='flex justify-center text-2xl hover:text-coral'>Github repository</a>
+                            <div className='text-center'><a href="https://github.com/Dawsonkw/userAuth" target='_blank' rel='noreferrer' className=' text-2xl hover:text-coral'>Github repository</a></div>
                             <img className='mx-auto p-4' src={pic4} style={{width: '350px',}} alt="" />
                             <p className='p-4  flex justify-center'>
                                 <ul>
