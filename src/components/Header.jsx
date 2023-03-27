@@ -8,7 +8,7 @@ import { Link } from 'react-scroll';
 function Header(props) {
     return (
         <div className='sticky top-0 z-10' id='header'>
-            <div className='bg-bone text-reallyDarkTurquoise mx-auto iphone5:w-4/5 sm:w-3/5 shadow-md shadow-black rounded-lg rounded-tl-none rounded-tr-none'>
+            <div className='bg-bone text-black mx-auto iphone5:w-4/5 sm:w-3/5 shadow-md shadow-black rounded-lg rounded-tl-none rounded-tr-none'>
                 <div className=''>
                     <div className='flex flex-row items-center'>
                         <div>
@@ -40,7 +40,7 @@ function Header(props) {
                     <div className='flex justify-around px-2 py-2 iphone5:text-xs 350:text-sm  iphone5:px-1 sm:text-lg'>
                         <Link to='about' smooth={true} offset={-170} className='pl-2 border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' >About</Link>
                         <Link to='projects' smooth={true} offset={-170} className='border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' >Projects</Link>
-                        <Link to='jiujitsu' smooth={true} offset={-170} className='border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' >Jiu-Jitsu</Link>
+                        {/* <Link to='jiujitsu' smooth={true} offset={-170} className='border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' >Jiu-Jitsu</Link> */}
                         <Link to='contact' smooth={true} offset={-170} className='pr-2 border-b-2 border-transparent hover:border-b-2 hover:border-emeraldGreenDark' >Contact</Link>
                     </div>
                 </div>

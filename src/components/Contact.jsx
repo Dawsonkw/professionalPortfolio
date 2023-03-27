@@ -40,8 +40,8 @@ function Contact(props) {
             <div id='contact' className='flex xl:flex-row xl:justify-center lg:flex-row md:flex-col iphone5:flex-col 350:flex-col mobile:flex-col sm:flex-col justify-center  lg:space-x-4  iphone5:mx-4  '>
                 <div className='iphone5:w-full sm:w-full 350:w-full md:w-7/12 lg:w-full xl:w-2/5 xl:justify-center bg-bone flex flex-row flex-grow justify-center items-center rounded-xl  mb-4 mx-auto shadow-lg shadow-black'>
                     <div className='text-center'>
-                        <img className='p-4 rounded-full flex justify-center  items-center' src={headshot} style={{width: '300px'}} alt="" />
-                        <h2>Connect with me</h2>
+                        <img className='p-4 rounded-full  shadow-black flex justify-center  items-center' src={headshot} style={{width: '300px'}} alt="" />
+                        <h2 className=' text-lg'>Connect with me</h2>
                     </div>
                     <div className='flex flex-col justify-center px-4'>
                         <div className='flex flex-col mx-auto text-5xl iphone5:text-2xl 350:text-3xl mobile:text-4xl sm:text-4xl gap-6 py-2'>
@@ -88,19 +88,19 @@ function Contact(props) {
                                         <p className='pt-2 text-black text-md'>Please reach out to me if you have any questions. </p>
                                     </div>
                                     <div>
-                                        <div className='flex flex-row p-5 space-x-3 text-black iphone5:text-sm 350:text-sm'>
+                                        <div className='flex flex-row p-4 space-x-3 text-black iphone5:text-sm 350:text-sm sm:text-lg '>
                                             <FiPhoneCall className='text-black'/>
                                             <span> Phone number available on request</span>
                                         </div>
                                     </div>
                                     <div>
-                                        <div className='flex flex-row p-5 space-x-3 text-black iphone5:text-sm 350:text-sm'>
+                                        <div className='flex flex-row p-4 space-x-3 text-black iphone5:text-sm 350:text-sm sm:text-lg'>
                                             <HiOutlineMail className='text-black'/>
                                             <span>Dawsonkw@gmail.com</span>
                                         </div>
                                     </div>
                                     <div>
-                                        <div className='flex flex-row p-5 space-x-3 text-black iphone5:text-sm 350:text-sm'>
+                                        <div className='flex flex-row p-4 space-x-3 text-black iphone5:text-sm 350:text-sm sm:text-lg'>
                                             <VscLocation className='text-black' />
                                             <span>Colorado</span>
                                         </div>
