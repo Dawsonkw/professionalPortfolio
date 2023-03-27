@@ -11,7 +11,7 @@ function About(props) {
         deleteSpeed: 75,       
     })
     return (
-        <div id='about'>
+        <div className='my-8' id='about'>
             <div className=' bg-bone iphone5:w-4/5 sm:w-3/5 lg:w-2/5 flex flex-col justify-center items-center mx-auto my-4 rounded-xl shadow-xl '>     
                 <div className=''>  
                 </div>
