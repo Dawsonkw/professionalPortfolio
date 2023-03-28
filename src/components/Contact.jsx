@@ -63,12 +63,12 @@ function Contact(props) {
                                 <p className='text-xl '>LinkedIn</p>
                             </div>
                         </div>
-                        <div className="relative group">
+                        {/* <div className="relative group">
                             <a target="_blank" rel='noopener noreferrer' href="https://www.youtube.com/channel/UCBzpe13ppDrVI1D3JGUVRHQ" className="hover:text-emeraldGreenDark"><AiFillYoutube/></a>
                             <div className="hidden absolute left-10 p-4 -top-1 w-fit bg-emeraldGreenDark rounded-md shadow-lg py-2 transition-all duration-900 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 shadow-black">
                                 <p className='text-xl '>YouTube</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="relative group">
                             <a target="_blank" rel='noopener noreferrer' href="https://pdfhost.io/v/XvwQZk9fR_dkw_dev_resume_hosted" className="hover:text-emeraldGreenDark"><MdWorkHistory/></a>
                             <div className="hidden absolute left-10 p-4 -top-1 w-fit bg-emeraldGreenDark rounded-md shadow-lg py-2 transition-all duration-900 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 shadow-black">
