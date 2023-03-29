@@ -38,7 +38,7 @@ function Contact(props) {
     return (
         <div className=' xl:m-23 z-10'>
             <div id='contact' className='flex xl:flex-row xl:justify-center lg:flex-row md:flex-col iphone5:flex-col 350:flex-col mobile:flex-col sm:flex-col justify-center  lg:space-x-4  iphone5:mx-4  '>
-                <div className='iphone5:w-full sm:w-full 350:w-full md:w-7/12 lg:w-full xl:w-2/5 xl:justify-center bg-bone flex flex-row flex-grow justify-center items-center rounded-xl  mb-4 mx-auto shadow-lg shadow-black'>
+                <div className='iphone5:w-full sm:w-full 350:w-full md:w-7/12 lg:w-full xl:w-2/5 xl:justify-center bg-bone flex flex-row flex-grow justify-center items-center rounded-xl  mb-4 mx-auto shadow-md shadow-black'>
                     <div className='text-center'>
                         <img className='p-4 rounded-full  shadow-black flex justify-center  items-center' src={headshot} style={{width: '300px'}} alt="" />
                         <h2 className=' text-lg'>Connect with me</h2>
@@ -81,7 +81,7 @@ function Contact(props) {
             
                     <div className=' flex pb-4 flex-grow'>
                         <div className='flex-row iphone5:w-full  sm:w-full 350:w-full md:w-full lg:w-full xl:w-full justify-center items-center'>
-                            <div className='flex flex-col md:flex-row bg-bone  p-8 rounded-xl text-white overflow-hidden shadow-lg shadow-black '>
+                            <div className='flex flex-col md:flex-row bg-bone  p-8 rounded-xl text-white overflow-hidden shadow-md shadow-black '>
                                 <div className='flex flex-col justify-between p-4'>
                                     <div>
                                         <h1 className='font-bold text-4xl tracking-wide text-black text-center'>Contact Me</h1>

@@ -22,36 +22,36 @@ function Projects(props) {
                         <div className=' bg-bone mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full rounded-xl -mt-2 iphone5:px-8 rounded-br-none rounded-bl-none  ' >
                             <Carousel />
                         </div>
-                        <div className='iphone5:flex flex-col lg:grid grid-cols-2  bg-bone p-4 rounded-xl iphone5:rounded-tr-none iphone5:rounded-tl-none mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full gap-8 shadow-lg shadow-black '>
-                            <div className='py-4  bg-emeraldGreenDark rounded-xl shadow-md shadow-black'>
+                        <div className='iphone5:flex flex-col lg:grid grid-cols-2  bg-bone p-4 rounded-xl iphone5:rounded-tr-none iphone5:rounded-tl-none mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full gap-8 shadow-md shadow-black '>
+                            <div className='py-4  bg-emeraldGreenDark rounded-xl shadow-sm shadow-black'>
                                 <h1 className='text-center text-3xl font-bold text-white iphone5:text-2xl sm:text-3xl'>Chatbox.js</h1>
                                 <video className='p-4' controls poster={thumbnail1} itemProp='contentURL'>
                                     <source src={video1} type='video/mp4' />
                                 </video>
                                 <div className='text-center'><a href="https://github.com/Dawsonkw/chatBox.js" target='_blank' rel='noreferrer' className=' text-white text-2xl iphone5:text-lg hover:text-coral '>Github repository</a></div>
                             </div>
-                            <div className='py-4 bg-emeraldGreenDark rounded-xl shadow-md shadow-black'>
+                            <div className='py-4 bg-emeraldGreenDark rounded-xl shadow-sm shadow-black'>
                                 <h1 className='text-center text-3xl font-bold text-white iphone5:text-2xl sm:text-3xl'>Shamazon E-commerce</h1>
                                 <video className='p-4' controls poster={thumbnail2} itemProp='contentURL'>
                                     <source src={video2} type='video/mp4' />
                                 </video>
                                 <div className='text-center'><a href="https://github.com/Dawsonkw/Shamazon" target='_blank' rel='noreferrer' className=' text-white text-2xl iphone5:text-lg hover:text-coral'>Github repository</a></div>
                             </div>
-                            <div className='py-4 bg-emeraldGreenDark rounded-xl shadow-md shadow-black'>
+                            <div className='py-4 bg-emeraldGreenDark rounded-xl shadow-sm shadow-black'>
                                 <h1 className='text-center text-3xl font-bold text-white iphone5:text-2xl sm:text-3xl'>Protogen Data Visualization</h1>
                                 <video className='p-4' controls poster={thumbnail3} itemProp='contentURL'>
                                     <source src={video3} type='video/mp4' />
                                 </video>
                                 <div className='text-center'><a href="https://github.com/Dawsonkw/ProtogenIndustries" target='_blank' rel='noreferrer' className=' text-white text-2xl iphone5:text-lg hover:text-coral'>Github repository</a></div>
                             </div>
-                            <div className='py-4 bg-emeraldGreenDark rounded-xl shadow-md shadow-black'>
+                            <div className='py-4 bg-emeraldGreenDark rounded-xl shadow-sm shadow-black'>
                                 <h1 className='text-center text-3xl font-bold text-white iphone5:text-2xl sm:text-3xl'>The Otter Newsapp</h1>
                                 <video className='p-4' controls poster={thumbnail4} itemProp='contentURL'>
                                     <source src={video4} type='video/mp4' />
                                 </video>
                                 <div className='text-center'><a href="https://github.com/Dawsonkw/ReactNewsApp" target='_blank' rel='noreferrer' className=' text-white text-2xl iphone5:text-lg hover:text-coral'>Github repository</a></div>
                             </div>
-                            <div className='py-4 bg-emeraldGreenDark rounded-xl shadow-md shadow-black'>
+                            <div className='py-4 bg-emeraldGreenDark rounded-xl shadow-sm shadow-black'>
                                 <h1 className='text-center text-3xl font-bold text-white iphone5:text-2xl sm:text-3xl'>Ai Playground</h1>
                                 <video className='p-4' controls poster={thumbnail5} itemProp='contentURL'>
                                     <source src={video5} type='video/mp4' />

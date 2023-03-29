@@ -10,10 +10,10 @@ function Components(props) {
         <div>
             
             <div className='iphone5:m-4 mobile:my-4 mobile:mx-8 sm:m-2 md:m-4 '>
-                <div className='iphone5:flex flex-col lg:grid grid-cols-2 xl:grid-cols-3  bg-bone p-4 rounded-xl  mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full gap-8 shadow-lg shadow-black '>
+                <div className='iphone5:flex flex-col lg:grid grid-cols-2 xl:grid-cols-3  bg-bone p-4 rounded-xl  mx-auto iphone5:w-full sm:w-3/5 md:w-7/12 lg:w-full gap-8 shadow-md shadow-black '>
                     <h2 className='text-center sm:flex-col lg:col-span-3 iphone5:text-2xl'>Components</h2>
                     <div >
-                        <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl shadow-md shadow-black'>
+                        <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl shadow-sm shadow-black'>
                             <h1 className='text-center text-3xl font-bold'>User Login Portal</h1>
                             <div className='text-center'><a href="https://github.com/Dawsonkw/entryPortal" target='_blank' rel='noreferrer'  className=' text-2xl hover:text-coral'>Github repository</a></div>
                             <video className='p-4' controls poster={pic3} itemProp='contentURL'>
