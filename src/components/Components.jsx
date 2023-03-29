@@ -33,7 +33,7 @@ function Components(props) {
                         <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl shadow-md shadow-black'>
                             <h1 className='text-center text-3xl font-bold'>Contact Form</h1>
                             <div className='text-center'><a href="https://github.com/Dawsonkw/contactFormComponent" target='_blank' rel='noreferrer'  className=' text-2xl hover:text-coral'>Github repository</a></div>
-                            <img className='mx-auto p-4' src={pic2} style={{width: '350px',}} alt="" />
+                            <img className='mx-auto p-4 flex' src={pic2} style={{width: '550px',}} alt="" />
                             <p className='p-4  flex justify-center'>
                                 <ul>
                                     <li>React</li>
@@ -47,7 +47,7 @@ function Components(props) {
                         <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl shadow-md shadow-black'>
                             <h1 className='text-center text-3xl font-bold'>Account Creation Form</h1>
                             <div className='text-center'><a href="https://github.com/Dawsonkw/accountCreation" target='_blank' rel='noreferrer' className='text-2xl hover:text-coral'>Github repository</a></div>
-                            <img className='mx-auto p-4' src={pic1} style={{width: '350px',}} alt="" />
+                            <img className='mx-auto p-4 flex' src={pic1} style={{width: '550px',}} alt="" />
                             <p className='p-4  flex justify-center'>
                                 <ul>
                                     <li>React</li>
@@ -61,7 +61,7 @@ function Components(props) {
                         <div className='py-4  bg-emeraldGreenDark text-white h-full rounded-xl shadow-md shadow-black'>
                             <h1 className='text-center text-3xl font-bold'>User Authentication Form</h1>
                             <div className='text-center'><a href="https://github.com/Dawsonkw/userAuth" target='_blank' rel='noreferrer' className=' text-2xl hover:text-coral'>Github repository</a></div>
-                            <img className='mx-auto p-4' src={pic4} style={{width: '350px',}} alt="" />
+                            <img className='mx-auto p-4 flex' src={pic4} style={{width: '550px',}} alt="" />
                             <p className='p-4  flex justify-center'>
                                 <ul>
                                     <li>React</li>
