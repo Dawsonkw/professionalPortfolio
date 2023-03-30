@@ -30,7 +30,7 @@ function Header(props) {
                                     </a>
                                 </li>
                                 <li className='hover:text-emeraldGreenDark'>
-                                    <a target="_blank" rel='noopener noreferrer' href="https://pdfhost.io/v/XvwQZk9fR_dkw_dev_resume_hosted">
+                                    <a target="_blank" rel='noopener noreferrer' href="https://docs.google.com/document/d/1zjIgWZDzGfMzBTFM3TcY4nfwou1F0h2t6GDXrBTJI2U/edit?usp=sharing">
                                         <MdWorkHistory />
                                     </a>
                                 </li>
