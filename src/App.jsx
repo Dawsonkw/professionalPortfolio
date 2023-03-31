@@ -11,8 +11,8 @@ function App() {
       <div className="bg-darkAqua font-poppins text-black " >
         <Helmet>
           <title>Dawson Woolley Developer Portfolio</title>
-          <meta name="description" content="A professional software developer portfolio built in React with Vite" ></meta>
-          <link rel="icon" type="image/svg+xml" href={lionIcon} ></link>
+          <meta name="description" content="A professional software developer portfolio built in React with Vite" />
+          <link rel="icon" type="image/svg+xml" href={lionIcon} />
         </Helmet>
           <Home />
       </div>
